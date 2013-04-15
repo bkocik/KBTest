@@ -17,7 +17,6 @@
 		EDB4DB671718903300215A3F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB4DB661718903300215A3F /* Default@2x.png */; };
 		EDB4DB691718903300215A3F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB4DB681718903300215A3F /* Default-568h@2x.png */; };
 		EDB4DB6C1718903300215A3F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB4DB6A1718903300215A3F /* MainStoryboard.storyboard */; };
-		EDB4DB6F1718903300215A3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB4DB6E1718903300215A3F /* ViewController.m */; };
 		EDB4DB771718920400215A3F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB4DB761718904600215A3F /* TPKeyboardAvoidingScrollView.m */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +35,6 @@
 		EDB4DB661718903300215A3F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EDB4DB681718903300215A3F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EDB4DB6B1718903300215A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		EDB4DB6D1718903300215A3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDB4DB6E1718903300215A3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EDB4DB751718904600215A3F /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		EDB4DB761718904600215A3F /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,8 +88,6 @@
 				EDB4DB751718904600215A3F /* TPKeyboardAvoidingScrollView.h */,
 				EDB4DB761718904600215A3F /* TPKeyboardAvoidingScrollView.m */,
 				EDB4DB6A1718903300215A3F /* MainStoryboard.storyboard */,
-				EDB4DB6D1718903300215A3F /* ViewController.h */,
-				EDB4DB6E1718903300215A3F /* ViewController.m */,
 				EDB4DB591718903300215A3F /* Supporting Files */,
 			);
 			path = KBTest;
@@ -180,7 +175,6 @@
 			files = (
 				EDB4DB5F1718903300215A3F /* main.m in Sources */,
 				EDB4DB631718903300215A3F /* AppDelegate.m in Sources */,
-				EDB4DB6F1718903300215A3F /* ViewController.m in Sources */,
 				EDB4DB771718920400215A3F /* TPKeyboardAvoidingScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
